@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>InnovateInvest</title>
+  </head>
+  <body>
+    <header>
+      <div class="line-header"></div>
+      <nav class="nav-bar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Inscreva-se</a></li>
+        <img src="img/logo.png" alt="Logo" />
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </nav>
+    </header>
+    <main>
+      <section class="introduction">
+        <div class="logo-introduction-flex">
+          <!-- <img class="logo-introduction" src="img/logo-about.png" alt="" /> -->
+        </div>
+        <div class="container-introduction">
+          <div class="text-introduction">
+            <h2>InnovateInvest</h2>
+            <p>
+              Bem-vindo ao InnovateInvest, onde estamos dedicados a ajudar
+              startups a alcançarem seu potencial máximo. Nós acreditamos que as
+              startups são a chave para um futuro melhor e mais inovador, e
+              estamos comprometidos em oferecer a elas o apoio financeiro
+              necessário para alcançar seus objetivos. Nosso processo de
+              candidatura é fácil e eficiente, permitindo que as startups
+              obtenham o financiamento de que precisam rapidamente. Nós
+              trabalhamos com startups de todas as áreas, oferecendo
+              financiamento flexível e personalizado de acordo com as
+              necessidades específicas de cada negócio. Não perca mais tempo
+              procurando por meios de financiamento. Conecte-se com nós hoje
+              mesmo e dê um passo decisivo rumo ao sucesso da sua startup.
+            </p>
+          </div>
+
+          <!-- <img class="img-introduction" src="img/img-about.jpg" alt="" /> -->
+        </div>
+      </section>
+      <section class="cards-field">
+        <div class="card">
+          <img class="icon-cards" src="img/candidation.png" alt="">
+          <h2>Candidatura Fácil e Intuitiva</h2>
+          <p>
+            O processo de candidatura em nosso site é simples e intuitivo. Tudo
+            o que você precisa fazer é preencher um formulário online com
+            informações básicas sobre sua startup, incluindo seus objetivos,
+            histórico e planos futuros. Em seguida, nossa equipe de
+            especialistas avaliará sua candidatura e fornecerá uma resposta em
+            questão de dias.
+          </p>
+        </div>
+        <div class="card">
+          <img class="icon-cards" src="img/sucsses.png" alt="">
+          <h2>Financiamento Personalizado para Sua Startup</h2>
+          <p>
+            Nós entendemos que cada startup é única e por isso oferecemos opções
+            de financiamento personalizadas de acordo com as necessidades de
+            cada negócio. Isso significa que você pode escolher o montante de
+            financiamento que precisa, bem como o prazo de pagamento que
+            funciona melhor para você. Além disso, não cobramos juros abusivos
+            ou taxas ocultas, garantindo que você possa investir no crescimento
+            da sua startup sem se preocupar com despesas extras.
+          </p>
+        </div>
+        <div class="card">
+          
+          <img class="icon-cards" src="img/Finances.png" alt="">
+          <h2>Acompanhando o Sucesso da Sua Startup</h2>
+          <p>
+            Estamos sempre prontos para ajudar nossos clientes a alcançarem seus
+            objetivos e estamos animados para fazer parte do sucesso da sua
+            startup. Não perca mais tempo procurando por meios de financiamento.
+            Inscreva sua startup em nosso site hoje mesmo e comece a transformar
+            seus sonhos em realidade.
+          </p>
+        </div>
+      </section>
+      <section class="container-form">
+        <form>
+          <h2>Nosso Formulário</h2>
+          <div class="flex-label">
+            <label for="nome_empresa"
+              >Nome da Empresa:<input class="input-form" onkeyup="digitar()" type="text" id="nome_empresa"
+            /></label>
+            <label for="nome_fundador"
+              >Nome do Fundador: <input class="input-form" onkeyup="digitar()" type="text" id="nome_fundador"
+            /></label>
+            <label for="endereco_empresa"
+              >Endereço da Empresa:<input class="input-form" onkeyup="digitar()" type="text" id="endereco_empresa"
+            /></label>
+            <label for="email_empresa"
+              >E-mail da Empresa: <input class="input-form" onkeyup="digitar()" type="text" id="email_empresa"
+            /></label>
+            <label for="numero_telefone"
+              >Número de Telefone: <input class="input-form" onkeyup="digitar()" type="text" id="numero_telefone"
+            /></label>
+            <label for="setor_atuacao"
+              >Setor de Atuação:<input class="input-form" onkeyup="digitar()" type="text" id="setor_atuacao"
+            /></label>
+            <label for="montante"
+              >Montante Solicitado:<input class="input-form" onkeyup="digitar()" type="text" id="montante"
+            /></label>
+            <label for="finalidade_financiamento"
+              >Finalidade do Financiamento:<input class="input-form" onkeyup="digitar()" type="text" id="finalidade_financiamento"
+            /></label>
+            <label for="progresso_empresa"
+              >Progresso Atual da Empresa:<input class="input-form" onkeyup="digitar()" type="text" id="progresso_empresa"
+            /></label>
+          </div>
+          <p>
+            <strong>Obs</strong>: As informações fornecidas serão utilizadas
+            para avaliar a viabilidade de financiamento da sua empresa.
+            Portanto, é importante fornecer informações precisas e completas. A
+            resposta desse formulário será enviado no E-mail da Empresa.
+          </p>
+          <div class="flex-checkbox">
+            <input type="checkbox" />
+            <p>
+              Concordo com os
+              <strong><a href="#">termos de política</a></strong> da empresa
+            </p>
+          </div>
+          <div class="inscrever-se"><a href="#" onclick="(submit())">Inscrever-se</a></div>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
